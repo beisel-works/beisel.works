@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+@import '@fontsource/iosevka/300.css';
+@import '@fontsource/iosevka/400.css';
+@import '@fontsource/iosevka/500.css';
 
 @tailwind base;
 @tailwind components;
