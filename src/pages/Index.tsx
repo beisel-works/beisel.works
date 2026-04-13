@@ -130,14 +130,14 @@ const Index = () => {
         <section className="py-24 md:py-32 px-6">
           <div className="max-w-2xl mx-auto">
             <Section>
-              <h2 className="text-sm tracking-[0.2em] uppercase text-muted-foreground mb-8">
+              <h2 className="text-sm tracking-[0.2em] uppercase text-muted-foreground mb-8 text-center md:text-left">
                 Founder
               </h2>
-              <div className="flex flex-col md:flex-row gap-8 items-start">
+              <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
                 <div className="w-20 h-20 rounded-full bg-secondary flex-shrink-0 flex items-center justify-center">
                   <span className="text-2xl font-light text-muted-foreground">FB</span>
                 </div>
-                <div>
+                <div className="text-center md:text-left">
                   <h3 className="text-xl font-normal text-foreground mb-2">Florian Beisel</h3>
                   <p className="text-sm text-muted-foreground mb-4">Gründer &amp; Operator</p>
                   <p className="text-base font-light leading-relaxed text-foreground/80">
