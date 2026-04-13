@@ -76,12 +76,12 @@ const Index = () => {
                 Worum es geht
               </h2>
               <p className="text-lg md:text-xl font-light leading-relaxed text-foreground/90">
-                beisel.works ist das operative Dach für den Aufbau digitaler Systeme –
-                von der Struktur über die Technik bis zum laufenden Betrieb.
+                Struktur, Technik und Betrieb digitaler Systeme –
+                aus einer Hand, mit operativem Anspruch.
               </p>
               <p className="text-base font-light leading-relaxed text-muted-foreground mt-6">
-                Kein Agenturmodell, kein Beratungstheater. Sondern Substanz:
-                tragfähige Lösungen, die langfristig funktionieren und sich weiterentwickeln lassen.
+                Tragfähige Lösungen, die langfristig funktionieren
+                und sich weiterentwickeln lassen.
               </p>
             </Section>
           </div>
@@ -139,7 +139,7 @@ const Index = () => {
                 </div>
                 <div className="text-center md:text-left">
                   <h3 className="text-xl font-normal text-foreground mb-2">Florian Beisel</h3>
-                  <p className="text-sm text-muted-foreground mb-4">Gründer &amp; Operator</p>
+                  <p className="text-sm text-muted-foreground mb-4">Founder</p>
                   <p className="text-base font-light leading-relaxed text-foreground/80">
                     Technischer Hintergrund, operativer Anspruch, regionale Verankerung
                     in der Odenwald- und Neckar-Region. Systeme entstehen hier nicht
