@@ -43,6 +43,24 @@ const Index = () => {
         {/* Hero */}
         <section className="min-h-screen flex flex-col items-center justify-center px-6">
           <Section className="text-center">
+            <div className="flex justify-center mb-8">
+              <div className="relative w-28 h-28 md:w-32 md:h-32">
+                <div
+                  className="absolute inset-0 border border-border/70 bg-card/70 backdrop-blur-sm shadow-[0_24px_80px_rgba(0,0,0,0.18)]"
+                  style={{ clipPath: 'polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)' }}
+                />
+                <div
+                  className="absolute inset-[10%] flex items-center justify-center"
+                  style={{ clipPath: 'polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)' }}
+                >
+                  <img
+                    src="/hero-icon-light.png"
+                    alt="beisel.works icon"
+                    className="w-full h-full object-contain object-center"
+                  />
+                </div>
+              </div>
+            </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-foreground mb-6">
               beisel.works
             </h1>
@@ -135,8 +153,14 @@ const Index = () => {
                 Founder
               </h2>
               <div className="flex flex-col md:flex-row gap-8 items-center md:items-start">
-                <div className="w-20 h-20 rounded-full bg-secondary flex-shrink-0 flex items-center justify-center">
-                  <span className="text-2xl font-light text-muted-foreground">FB</span>
+                <div className="w-32 md:w-40 flex-shrink-0">
+                  <div className="overflow-hidden rounded-2xl border border-border bg-card/70 shadow-[0_24px_80px_rgba(0,0,0,0.18)]">
+                    <img
+                      src="/founder-portrait.jpg"
+                      alt="Founder Florian Beisel"
+                      className="w-full h-auto object-cover"
+                    />
+                  </div>
                 </div>
                 <div className="text-center md:text-left">
                   <h3 className="text-xl font-normal text-foreground mb-2">Florian Beisel</h3>
@@ -144,8 +168,8 @@ const Index = () => {
                   <p className="text-base font-light leading-relaxed text-foreground/80">
                     Technischer Hintergrund, operativer Anspruch, regionale Verankerung
                     in der Odenwald- und Neckar-Region. Systeme entstehen hier nicht
-                    auf dem Reißbrett, sondern aus echtem Bedarf – mit Überblick,
-                    Umsetzungswillen und Ausdauer.
+                    auf dem Reißbrett, sondern aus echtem Bedarf, mit Überblick und
+                    dem Willen, tragfähige digitale Strukturen sauber aufzubauen.
                   </p>
                 </div>
               </div>
