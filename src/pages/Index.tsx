@@ -192,7 +192,7 @@ const Index = () => {
         </section>
 
         {/* Kontakt */}
-        <section className="py-24 md:py-32 px-6">
+        <section id="kontakt" className="py-24 md:py-32 px-6">
           <div className="max-w-2xl mx-auto text-center">
             <Section>
               <h2 className="text-sm tracking-[0.2em] uppercase text-muted-foreground mb-8">
