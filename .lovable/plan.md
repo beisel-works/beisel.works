@@ -1,16 +1,32 @@
 
 
-# beisel.works – Angepasster Plan
+# beisel.works – Überarbeitung
 
-Einzige Änderung gegenüber dem bisherigen Plan:
+## Kernänderungen
 
-## Hero-Tagline
+### 1. "Stealth Mode" entfernen
+Das Badge wird komplett entfernt. Es vermischt Konzepte und gehört nicht auf die Seite.
 
-**Alt:** *„Systeme bauen. Leise. Tragfähig."*
+### 2. Hero mit CTAs erweitern
+Statt des Stealth-Badge kommen zwei CTAs:
+- **Primär:** "Projekt anfragen" (mailto oder Scroll zu Kontakt)
+- **Sekundär:** "Mehr erfahren" (Scroll zur nächsten Sektion)
 
-**Neu:** *„Digitale Systeme, bodenständig gebaut."*
+### 3. Neue Sektion: Leistungsfelder (zwischen "Worum es geht" und "Founder")
+Diskrete, knappe Darstellung der Kompetenzbereiche – keine Produktmatrix, sondern eine ruhige Auflistung:
+- IT Services & Consulting
+- Softwareentwicklung
+- Webentwicklung & Design
+- Automatisierung & systemische Lösungen
 
-Die Tagline beschreibt jetzt die Haltung und das Angebot – nicht den Betriebsmodus. „Stealth Mode" bleibt als separater, dezenter Hinweis unterhalb der Tagline bestehen, aber nicht als Teil des Claims.
+Als schlichte Liste oder minimale Karten, ohne Preise oder Detail-Unterseiten. AI-Kompetenz nur als Teilaspekt von "Automatisierung", nicht als eigener Block.
 
-Alles andere (Struktur, Farben, Interaktion, Sektionen, Prinzipien, Footer) bleibt wie im vorherigen Plan.
+### 4. Alles andere bleibt
+Tagline, Founder-Profil, Arbeitsweise, Kontakt, Footer – inhaltlich unverändert.
+
+## Technisch
+- Nur `src/pages/Index.tsx` wird editiert
+- Stealth-Badge (Zeilen 52-54) entfernt, durch zwei CTA-Buttons ersetzt
+- Neue Leistungsfelder-Sektion eingefügt
+- Smooth-Scroll für sekundäre CTA
 
