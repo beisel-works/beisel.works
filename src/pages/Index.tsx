@@ -46,12 +46,25 @@ const Index = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-foreground mb-6">
               beisel.works
             </h1>
-            <p className="text-lg md:text-xl font-light text-muted-foreground max-w-lg mx-auto mb-8">
+            <p className="text-lg md:text-xl font-light text-muted-foreground max-w-lg mx-auto mb-10">
               Digitale Systeme, bodenständig gebaut.
             </p>
-            <span className="inline-block text-xs tracking-[0.25em] uppercase text-muted-foreground/60 border border-border px-4 py-1.5 rounded-full">
-              Stealth Mode
-            </span>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="#kontakt"
+                onClick={(e) => { e.preventDefault(); document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' }); }}
+                className="text-sm tracking-wide text-primary-foreground bg-primary px-8 py-3 rounded-md hover:bg-primary/90 transition-colors duration-300"
+              >
+                Projekt anfragen
+              </a>
+              <a
+                href="#leistungsfelder"
+                onClick={(e) => { e.preventDefault(); document.getElementById('leistungsfelder')?.scrollIntoView({ behavior: 'smooth' }); }}
+                className="text-sm tracking-wide text-foreground border border-border px-8 py-3 rounded-md hover:bg-secondary transition-colors duration-300"
+              >
+                Mehr erfahren
+              </a>
+            </div>
           </Section>
         </section>
 
@@ -70,6 +83,45 @@ const Index = () => {
                 Kein Agenturmodell, kein Beratungstheater. Sondern Substanz:
                 tragfähige Lösungen, die langfristig funktionieren und sich weiterentwickeln lassen.
               </p>
+            </Section>
+          </div>
+        </section>
+
+        {/* Leistungsfelder */}
+        <section id="leistungsfelder" className="py-24 md:py-32 px-6">
+          <div className="max-w-3xl mx-auto">
+            <Section>
+              <h2 className="text-sm tracking-[0.2em] uppercase text-muted-foreground mb-12">
+                Leistungsfelder
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {[
+                  {
+                    title: 'IT Services & Consulting',
+                    text: 'Infrastruktur, Systeme und Prozesse – analysiert, geplant und umgesetzt.',
+                  },
+                  {
+                    title: 'Softwareentwicklung',
+                    text: 'Individuelle Lösungen, die zum Betrieb passen – nicht umgekehrt.',
+                  },
+                  {
+                    title: 'Webentwicklung & Design',
+                    text: 'Digitale Auftritte und Anwendungen mit Substanz und klarer Struktur.',
+                  },
+                  {
+                    title: 'Automatisierung & systemische Lösungen',
+                    text: 'Wiederkehrende Abläufe intelligent vereinfachen – mit bewährter Technik.',
+                  },
+                ].map((item) => (
+                  <div
+                    key={item.title}
+                    className="border border-border rounded-md p-6 bg-card/50 backdrop-blur-sm"
+                  >
+                    <h3 className="text-sm font-medium text-foreground mb-2">{item.title}</h3>
+                    <p className="text-sm font-light text-muted-foreground">{item.text}</p>
+                  </div>
+                ))}
+              </div>
             </Section>
           </div>
         </section>
