@@ -47,7 +47,8 @@ const Index = () => {
               beisel.works
             </h1>
             <p className="text-lg md:text-xl font-light text-muted-foreground max-w-lg mx-auto mb-10">
-              Digitale Systeme, bodenständig gebaut.
+              <span className="hidden md:inline">Digitale Systeme, bodenständig gebaut.</span>
+              <span className="md:hidden">Digitale Systeme. Bodenständig.</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
