@@ -43,8 +43,8 @@ const Index = () => {
         {/* Hero */}
         <section className="min-h-screen flex flex-col items-center justify-center px-6">
           <Section className="text-center">
-            <div className="flex justify-center mb-8">
-              <div className="relative w-28 h-28 md:w-32 md:h-32">
+            <div className="flex justify-center mb-10">
+              <div className="relative w-44 h-44 md:w-56 md:h-56">
                 <div
                   className="absolute inset-0 border border-border/70 bg-card/70 backdrop-blur-sm shadow-[0_24px_80px_rgba(0,0,0,0.18)]"
                   style={{ clipPath: 'polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)' }}
@@ -61,10 +61,10 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-foreground mb-6">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-light tracking-tight text-foreground mb-8">
               beisel.works
             </h1>
-            <p className="text-lg md:text-xl font-light text-muted-foreground max-w-lg mx-auto mb-10">
+            <p className="text-xl md:text-2xl font-light text-muted-foreground max-w-2xl mx-auto mb-12 leading-relaxed">
               <span className="hidden md:inline">Digitale Systeme, bodenständig gebaut.</span>
               <span className="md:hidden">Digitale Systeme. Bodenständig.</span>
             </p>
@@ -72,14 +72,14 @@ const Index = () => {
               <a
                 href="#kontakt"
                 onClick={(e) => { e.preventDefault(); document.getElementById('kontakt')?.scrollIntoView({ behavior: 'smooth' }); }}
-                className="text-sm tracking-wide text-primary-foreground bg-primary px-8 py-3 rounded-md hover:bg-primary/90 transition-colors duration-300"
+                className="text-base tracking-wide text-primary-foreground bg-primary px-10 py-4 rounded-md hover:bg-primary/90 transition-colors duration-300"
               >
                 Projekt anfragen
               </a>
               <a
                 href="#leistungsfelder"
                 onClick={(e) => { e.preventDefault(); document.getElementById('leistungsfelder')?.scrollIntoView({ behavior: 'smooth' }); }}
-                className="text-sm tracking-wide text-foreground border border-border px-8 py-3 rounded-md hover:bg-secondary transition-colors duration-300"
+                className="text-base tracking-wide text-foreground border border-border px-10 py-4 rounded-md hover:bg-secondary transition-colors duration-300"
               >
                 Mehr erfahren
               </a>
