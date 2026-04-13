@@ -54,7 +54,7 @@ const Index = () => {
                   style={{ clipPath: 'polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%)' }}
                 >
                   <img
-                    src="/hero-icon-light.png"
+                    src="/hero-icon-authoritative.jpg"
                     alt="beisel.works icon"
                     className="w-full h-full object-contain object-center"
                   />
@@ -227,10 +227,10 @@ const Index = () => {
                 Wenn es passt, sprechen wir.
               </p>
               <a
-                href="mailto:kontakt@beisel.works"
+                href="mailto:florian@beisel.org"
                 className="inline-block text-sm tracking-wide text-foreground border border-border px-8 py-3 rounded-md hover:bg-secondary transition-colors duration-300"
               >
-                kontakt@beisel.works
+                florian@beisel.org
               </a>
             </Section>
           </div>
@@ -243,10 +243,10 @@ const Index = () => {
               © {new Date().getFullYear()} beisel.works
             </span>
             <div className="flex gap-6">
-              <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+              <a href="/impressum" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
                 Impressum
               </a>
-              <a href="#" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
+              <a href="/datenschutz" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
                 Datenschutz
               </a>
             </div>
